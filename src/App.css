@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+  .Navbar-Items{
+      font-size: 10px;
+      display: flex;
+      justify-content: space-around;
+      margin:auto;
+      overflow: hidden;
+      
+  }
+  .logo{
+      height: 1.5rem;
+  }
+  .searchbar{
+      height: fit-content;
+      overflow: hidden;
+  }
+  .cart{
+      font-size: 1rem;
+
+  }
+  .textbox{
+      height:1.4rem;
+
+  }
+  .slider-container{
+    height: 200px;
+  }
+
+  
+}
+@media screen and (max-width: 600px){
+  .card{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      
+  }
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 1000px){
+  .card{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+a:hover{
+  text-decoration: underline;
+}
+
