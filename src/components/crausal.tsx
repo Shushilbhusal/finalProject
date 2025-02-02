@@ -19,16 +19,16 @@ const Carousel: React.FC = () => {
   };
 
   return (
-    <div className="slider-container h-72  ">
+    <div className="slider-container h-80  ">
       <Slider {...settings}>
         <div className="h-60">
-          <img src="/slider1.jpg" alt="Slide 1" className="w-full h-60 " />
+          <img src="/slider1.jpg" alt="Slide 1" className="w-full h-80 " />
         </div>
         <div className="h-60">
-          <img src="/slider2.jpg" alt="Slide 2" className="w-full h-60 " />
+          <img src="/slider2.jpg" alt="Slide 2" className="w-full h-80 " />
         </div>
         <div className="h-60">
-          <img src="/slider3.png" alt="Slide 3" className="w-full h-60 " />
+          <img src="/slider3.png" alt="Slide 3" className="w-full h-80 " />
         </div>
       </Slider>
     </div>

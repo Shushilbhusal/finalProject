@@ -53,7 +53,7 @@ const Card = () => {
 
 
  return (
-   <div className="grid grid-cols-3 gap-12 m-4">
+   <div className="grid grid-cols-4 gap-12 m-4 ">
      {data.map((item: ProductType) => (
        <div
          key={item.id}
@@ -67,10 +67,10 @@ const Card = () => {
 
 
          <h1 className="font-bold text-2xl mb-3">{item.name}</h1>
-         <div>{item.description}</div>
+         <div className="line-clamp-3">{item.description}</div>
          <div>${item.price}</div>
-         <button className="bg-blue-950 text-white  m-4 h-14 w-14 rounded-full hover:cursor-pointer">Update</button>
-         <button className="bg-blue-950 text-white  m-4 h-14 w-14 rounded-full hover:cursor-pointer">Delete</button>
+         <button className="bg-[#000435] text-white  m-4 h-14 w-14 rounded-full hover:cursor-pointer">Edit</button>
+         <button className="bg-[#000435] text-white  m-4 h-14 w-14 rounded-full hover:cursor-pointer">Delete</button>
        </div>
      ))}
    </div>
